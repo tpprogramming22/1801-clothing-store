@@ -36,6 +36,7 @@ const ApplePay = () => {
         if(e.shippingAddress.country !== 'GB') {
             e.updateWith({status: 'invalid_shipping_address'})
         }
+        e.complete('success')
     })
 
     pr.on("paymentmethod", async (e) => {
