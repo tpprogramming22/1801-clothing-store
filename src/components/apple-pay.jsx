@@ -25,12 +25,11 @@ const ApplePay = () => {
         amount: 2999,
       },
       requestShipping: true,
-      shippingOptions: {
+      shippingOptions: [{
         id: 'free-shipping',
         label: 'Free shipping',
         detail: 'Sent within 2 days with royal mail',
-        amount: 0,
-      }
+        amount: 0,},]
     });
     pr.canMakePayment().then((result) => {
       if (result) {
