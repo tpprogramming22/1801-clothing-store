@@ -43,6 +43,7 @@ const Payment = () => {
     return (
         <div>
             <h1>Payment Form</h1>
+            <a href="https://buy.stripe.com/bIY7tmdX92Lye7SfYY">Pay with card</a>
             <form onSubmit={handleSubmit}>
                 <CardElement />
                 <button>Pay now!</button>

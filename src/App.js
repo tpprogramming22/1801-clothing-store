@@ -20,10 +20,8 @@ function App() {
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1>SITE IS UNDERCONSTRUCTION</h1>
       <Payment />
-
-
     </div>
   );
 }
