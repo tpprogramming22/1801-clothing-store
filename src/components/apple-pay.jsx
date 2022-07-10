@@ -32,6 +32,12 @@ const ApplePay = () => {
       }
     });
 
+    pr.on("shippingaddresschange", async (e) => {
+        if(e.shippingAddress.country !== 'GB') {
+            e.updateWith({status: 'invalid_shipping_address'})
+        }
+    })
+
     pr.on("paymentmethod", async (e) => {
       const response = await fetch(
         "/.netlify/functions/create-payment-intent",
@@ -42,7 +48,6 @@ const ApplePay = () => {
           },
           body: JSON.stringify({
             paymentMethodType: "card",
-            shippingAddress: e.shippingAddress,
           }),
         }
       ).then((res) => res.json());
