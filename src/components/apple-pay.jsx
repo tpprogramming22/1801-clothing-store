@@ -22,8 +22,9 @@ const ApplePay = () => {
       requestPayerName: true,
       total: {
         label: "1801 Maxi Dress",
-        amount: 1999,
+        amount: 2999,
       },
+      requestShipping: true,
     });
     pr.canMakePayment().then((result) => {
       if (result) {
