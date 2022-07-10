@@ -42,6 +42,7 @@ const ApplePay = () => {
           },
           body: JSON.stringify({
             paymentMethodType: "card",
+            shippingAddress: e.shippingAddress,
           }),
         }
       ).then((res) => res.json());
