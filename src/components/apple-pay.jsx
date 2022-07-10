@@ -24,7 +24,6 @@ const ApplePay = () => {
         label: "1801 Maxi Dress",
         amount: 2999,
       },
-      requestShipping: true,
     });
     pr.canMakePayment().then((result) => {
       if (result) {
@@ -32,12 +31,12 @@ const ApplePay = () => {
       }
     });
 
-    pr.on("shippingaddresschange", async (e) => {
-        if(e.shippingAddress.country !== 'GB') {
-            e.updateWith({status: 'invalid_shipping_address'})
-        }
-        e.complete('success')
-    })
+    // pr.on("shippingaddresschange", async (e) => {
+    //     if(e.shippingAddress.country !== 'GB') {
+    //         e.updateWith({status: 'invalid_shipping_address'})
+    //     }
+    //     e.complete('success')
+    // })
 
     pr.on("paymentmethod", async (e) => {
       const response = await fetch(
