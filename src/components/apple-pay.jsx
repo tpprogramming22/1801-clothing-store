@@ -20,9 +20,10 @@ const ApplePay = () => {
       country: "GB",
       requestPayerEmail: true,
       requestPayerName: true,
+      requestShipping: true,
       total: {
-        label: "Demo Payment",
-        amount: 1999,
+        label: "1801 Maxi Dress",
+        amount: 2999,
       },
     });
     pr.canMakePayment().then((result) => {
