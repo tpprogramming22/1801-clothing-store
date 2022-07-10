@@ -24,6 +24,13 @@ const ApplePay = () => {
         label: "1801 Maxi Dress",
         amount: 2999,
       },
+      requestShipping: true,
+      shippingOptions: {
+        id: 'free-shipping',
+        label: 'Free shipping',
+        detail: 'Sent within 2 days with royal mail',
+        amount: 0,
+      }
     });
     pr.canMakePayment().then((result) => {
       if (result) {
@@ -31,12 +38,18 @@ const ApplePay = () => {
       }
     });
 
-    // pr.on("shippingaddresschange", async (e) => {
-    //     if(e.shippingAddress.country !== 'GB') {
-    //         e.updateWith({status: 'invalid_shipping_address'})
-    //     }
-    //     e.complete('success')
-    // })
+    pr.on("shippingaddresschange", async (e) => {
+        if(e.shippingAddress.country !== 'GB') {
+            e.updateWith({status: 'invalid_shipping_address'})
+        }
+        else {
+            e.updateWith({
+                status: 'success',
+            })
+
+        }
+
+    })
 
     pr.on("paymentmethod", async (e) => {
       const response = await fetch(
