@@ -8,6 +8,7 @@ import PaymentLink from './components/payment-link';
 import Header from './components/header';
 import Carousel from './components/carousel';
 import Information from './components/information';
+import BuyNow from './components/buy-now';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -26,6 +27,8 @@ function App() {
     <div>
       <Header />
       <Carousel />
+      <Information />
+      <BuyNow />
     </div>
   );
 }

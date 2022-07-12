@@ -86,7 +86,6 @@ const ApplePay = () => {
 
   return (
     <div>
-      <h2>Due to high volume there is a limit to 1 per transaction</h2>
       {paymentRequest && (
         <PaymentRequestButtonElement options={{ paymentRequest }} />
       )}
