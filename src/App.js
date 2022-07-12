@@ -10,6 +10,7 @@ import Carousel from './components/carousel';
 import Information from './components/information';
 import BuyNow from './components/buy-now';
 import About from './components/about';
+import Footer from './components/footer';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -32,6 +33,8 @@ function App() {
       <Information />
       <BuyNow />
       <About />
+      <Footer />
+
     </div>
   );
 }
