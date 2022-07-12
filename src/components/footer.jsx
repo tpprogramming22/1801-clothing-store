@@ -7,7 +7,6 @@ const Footer = () => {
         <div className="flex justify-evenly items-center">
        <a href='mailto: 1801helpdesk@gmail.com' className='text-xl pb-3'><AiTwotoneMail /></a>
         </div>
-        
       </footer>
     </div>
   );
