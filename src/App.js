@@ -4,6 +4,10 @@ import axios from 'axios';
 import Payment from './components/payment';
 import ApplePay from './components/apple-pay';
 import { useState, useEffect } from 'react';
+import PaymentLink from './components/payment-link';
+import Header from './components/header';
+import Carousel from './components/carousel';
+import Information from './components/information';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -20,9 +24,8 @@ function App() {
 
   return (
     <div>
-      <h1 className='text-red-500 text-4xl text-center'>SITE IS UNDERCONSTRUCTION</h1>
-      <Payment />
-      <ApplePay />
+      <Header />
+      <Carousel />
     </div>
   );
 }
