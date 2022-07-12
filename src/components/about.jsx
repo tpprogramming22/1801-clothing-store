@@ -33,7 +33,9 @@ const About = () => {
         {!desc && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <span className="text-sm">
-              This trending 1801 Maxi bodycon dress is x and has y ranging from sizes XS to XL
+            A classic, timeless dress that flatters every body type. It is perfect for every season. 
+
+We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 business days. 
             </span>
             
           </div>
@@ -60,7 +62,7 @@ const About = () => {
         {!sizeGuide && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <p className="text-sm">
-              This is the size guide.
+            Our models both wear a size S, this size will fit a size 6-12. They are both 5’8 and wear size UK 8-10. Due to high demand, this is the only size left in stock. 
             </p>
           </div>
         )}
@@ -86,7 +88,7 @@ const About = () => {
         {!returnPolicy && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <p className="text-sm">
-              This is the returns policy.
+            If you want to return your dress (within 14 days), please email 1801helpdesk@gmail.com and one of our team will help you.
             </p>
           </div>
         )}

@@ -5,8 +5,6 @@ const Information = () => {
         <div className="p-10 border-b-2">
             <div>
                 <h1 className="text-4xl">1801 Maxi</h1>
-                <p className="pt-3">Free shipping to the United Kingdom</p>
-                <ReactCountryFlag countryCode='GB'/>
             </div>
             <h1 className='pt-3 text-xl'>£29.99</h1>
             <div className="flex justify-evenly items-center pt-10">
@@ -24,7 +22,7 @@ const Information = () => {
                 </div>
 
             </div>
-<div className="pt-10"><h1>Last size left! 'Small' selected.</h1></div>
+<div className="pt-10"><h1>Last size left!</h1></div>
             
             
         </div>

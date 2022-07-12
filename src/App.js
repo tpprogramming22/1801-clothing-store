@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div>
-      <header className='bg-black text-white min-w-max text-sm p-1'>20+ viewing this page</header>
+      <header className='bg-black text-white w-[400px] text-sm p-[2px] fixed top-0 z-30'>20+ viewing this page</header>
       <Header />
       <Carousel />
       <Information />
