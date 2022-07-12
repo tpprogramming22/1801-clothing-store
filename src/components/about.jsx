@@ -35,7 +35,7 @@ const About = () => {
             <span className="text-sm">
             A classic, timeless dress that flatters every body type. It is perfect for every season. 
 
-We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 business days. 
+We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 business days. Remember to check your junk folder for confirmation after ordering.
             </span>
             
           </div>

@@ -90,7 +90,7 @@ const ApplePay = () => {
       if(paymentIntent.status == 'requires_action') {
         stripe.confirmCardPayment(client_secret);
       }
-      setPaymentStatus('Payment complete! You will be emailed shortly with confirmation!')
+      setPaymentStatus('Payment complete! You will be emailed shortly with confirmation! Remember to check your junk folder.')
     });
   }, [stripe, elements]);
 
