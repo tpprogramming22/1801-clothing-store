@@ -8,7 +8,7 @@ const Information = () => {
                 <p className="pt-3">Free shipping for the United Kingdom</p>
                 <ReactCountryFlag countryCode='GB'/>
             </div>
-            <h1 className='pt-9 text-xl'>£29.99</h1>
+            <h1 className='pt-3 text-xl'>£29.99</h1>
             <div className="flex justify-evenly items-center pt-10">
             <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
                     <span>XS</span>

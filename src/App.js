@@ -9,6 +9,7 @@ import Header from './components/header';
 import Carousel from './components/carousel';
 import Information from './components/information';
 import BuyNow from './components/buy-now';
+import About from './components/about';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -25,10 +26,12 @@ function App() {
 
   return (
     <div>
+      <header className='bg-black text-white min-w-max text-sm'>20+ viewing this page</header>
       <Header />
       <Carousel />
       <Information />
       <BuyNow />
+      <About />
     </div>
   );
 }
