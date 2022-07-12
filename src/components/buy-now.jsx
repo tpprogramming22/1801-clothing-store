@@ -16,7 +16,7 @@ const BuyNow = () => {
       
         
       
-      <span className='text-white text-2xl'>Pay with card</span>
+      <span className='text-white text-xl'>Pay with card</span>
       <AiFillCreditCard className='text-white text-3xl'/>
       </div></a>
       <div className="pt-4">
