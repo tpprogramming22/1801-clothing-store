@@ -5,8 +5,10 @@ const BuyNow = () => {
   return (
     <div className="pt-6 border-b-2">
       <h1 className="text-3xl">Buy now!</h1>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center">
         <PaymentLink />
+      </div>
+      <div className="flex justify-center">
         <ApplePay />
       </div>
     </div>
