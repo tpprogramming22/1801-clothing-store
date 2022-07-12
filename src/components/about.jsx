@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div className="pt-4 pb-10 border-b-2">
-      <h1 className="text-3xl">Information</h1>
+      {/* <h1 className="text-3xl">Information</h1> */}
       <div className="pb-4 pt-4">
         <h1 className="text-2xl">Description</h1>
         <div className="flex items-center justify-center">
