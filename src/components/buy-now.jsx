@@ -11,6 +11,7 @@ const BuyNow = () => {
       <div className="flex justify-center">
         <PaymentLink />
       </div>
+      <h2>Click me!</h2>
       <div className="pt-4 pb-4">
         <ApplePay className='w-[100px]'/>
       </div>
