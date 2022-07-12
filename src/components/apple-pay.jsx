@@ -9,6 +9,8 @@ const ApplePay = () => {
   const stripe = useStripe();
   const elements = useElements();
 
+  const [paymentStatus, setPaymentStatus] = useState('');
+
   const [paymentRequest, setPaymentRequest] = useState(null);
 
   useEffect(() => {
@@ -68,7 +70,7 @@ const ApplePay = () => {
         paymentIntent: { client_secret },
       } = response;
 
-      const { paymentIntent } = await stripe.confirmCardPayment(
+      const { error, paymentIntent } = await stripe.confirmCardPayment(
         client_secret,
         {
           payment_method: e.paymentMethod.id,
@@ -77,10 +79,18 @@ const ApplePay = () => {
           handleActions: false,
         }
       )
+
+      if(error) {
+        e.complete('fail');
+        setPaymentStatus('There was an error with your payment, please try again.')
+        return;
+      }
+
       e.complete('success')
       if(paymentIntent.status == 'requires_action') {
         stripe.confirmCardPayment(client_secret);
       }
+      setPaymentStatus('Payment complete! You will be emailed shortly with confirmation!')
     });
   }, [stripe, elements]);
 
@@ -89,6 +99,7 @@ const ApplePay = () => {
       {paymentRequest && (
         <PaymentRequestButtonElement options={{ paymentRequest }} />
       )}
+      <h1>{paymentStatus}</h1>
     </div>
   );
 };
