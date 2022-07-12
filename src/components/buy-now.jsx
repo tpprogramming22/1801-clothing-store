@@ -8,8 +8,8 @@ const BuyNow = () => {
       <div className="flex justify-center">
         <PaymentLink />
       </div>
-      <div className="">
-        <ApplePay />
+      <div className="pt-4 pb-4">
+        <ApplePay/>
       </div>
     </div>
   );
