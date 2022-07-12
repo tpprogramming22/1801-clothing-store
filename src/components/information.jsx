@@ -5,7 +5,7 @@ const Information = () => {
         <div className="p-10 border-b-2">
             <div>
                 <h1 className="text-4xl">1801 Maxi</h1>
-                <p className="pt-3">Free shipping for the United Kingdom</p>
+                <p className="pt-3">Free shipping to the United Kingdom</p>
                 <ReactCountryFlag countryCode='GB'/>
             </div>
             <h1 className='pt-3 text-xl'>£29.99</h1>
