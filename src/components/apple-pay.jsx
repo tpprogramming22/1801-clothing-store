@@ -24,7 +24,7 @@ const ApplePay = () => {
       requestPayerName: true,
       total: {
         label: "1801 Maxi Dress",
-        amount: 40,
+        amount: 2999,
       },
       requestShipping: true,
       shippingOptions: [{
