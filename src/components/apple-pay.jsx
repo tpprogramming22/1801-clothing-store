@@ -99,7 +99,9 @@ const ApplePay = () => {
       {paymentRequest && (
         <PaymentRequestButtonElement options={{ paymentRequest }} />
       )}
-      <h1>{paymentStatus}</h1>
+      <div className="inline-block overflow-hidden max-w-[300px] pt-4 pb-3">
+        <span className="text-sm">{paymentStatus}</span>
+      </div>
     </div>
   );
 };
