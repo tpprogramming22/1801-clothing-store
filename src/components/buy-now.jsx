@@ -9,7 +9,7 @@ const BuyNow = () => {
         <PaymentLink />
       </div>
       <div className="pt-4 pb-4">
-        <ApplePay/>
+        <ApplePay className='w-[100px]'/>
       </div>
     </div>
   );
