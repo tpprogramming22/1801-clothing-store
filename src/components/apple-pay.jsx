@@ -99,6 +99,9 @@ const ApplePay = () => {
       {paymentRequest && (
         <PaymentRequestButtonElement options={{ paymentRequest }} />
       )}
+      {!paymentRequest && (
+        <h1>Open in Safari to enable Apple Pay</h1>
+      )}
       <div className="inline-block overflow-hidden max-w-[300px] pt-4 pb-3">
         <span className="text-sm">{paymentStatus}</span>
       </div>
