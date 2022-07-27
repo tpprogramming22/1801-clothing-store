@@ -11,7 +11,7 @@ const Information = () => {
             <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
                     <span>XS</span>
                 </div>
-                <div className="shadow-xl bg-gray-400 rounded w-10 cursor-pointer focus:bg-black">
+                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer focus:bg-black">
                     <span>S</span>
                 </div>
                 <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
@@ -22,7 +22,7 @@ const Information = () => {
                 </div>
 
             </div>
-<div className="pt-10"><h1>Last size left!</h1></div>
+<div className="pt-10"><h1>OUT OF STOCK</h1></div>
             
             
         </div>

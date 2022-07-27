@@ -31,7 +31,7 @@ function App() {
       <Header />
       <Carousel />
       <Information />
-      <BuyNow />
+
       <About />
       <Footer />
 
