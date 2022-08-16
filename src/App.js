@@ -33,7 +33,6 @@ function App() {
       <Carousel />
       <Information />
       <BuyNow />
-
       <About />
       <Footer />
 
