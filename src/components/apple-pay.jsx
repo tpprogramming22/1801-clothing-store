@@ -25,7 +25,7 @@ const ApplePay = () => {
       requestPayerName: true,
       total: {
         label: "Cottage Club Midi",
-        amount: 40,
+        amount: 3000,
       },
       requestShipping: true,
       shippingOptions: [{
