@@ -11,6 +11,7 @@ import Information from './components/information';
 import BuyNow from './components/buy-now';
 import About from './components/about';
 import Footer from './components/footer';
+import DiscordHook from './components/discordhook';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -29,6 +30,9 @@ function App() {
     <div>
       {/* <header className='bg-black text-white w-[400px] text-sm p-[2px] fixed top-0 z-30'>Less than 50 in stock!</header> */}
       <Header />
+      <div className='bg-black rounded-md m-auto cursor-pointer' onClick={DiscordHook}>
+        <h1 className='text-white'>PRESS ME!</h1>
+      </div>
       {/* <Carousel />
       <Information />
 
