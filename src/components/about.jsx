@@ -86,7 +86,7 @@ const About = () => {
         {!returnPolicy && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <p className="text-sm">
-            If you would like to return your dress you will have 14 days to do so. Please email 1801helpdesk@gmail.com and one of our team will get back to you.
+            If you would like to return your dress you will have 14 days to do so. Please email cclubhelp@gmail.com and one of our team will get back to you.
             </p>
           </div>
         )}
