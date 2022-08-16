@@ -25,7 +25,7 @@ const ApplePay = () => {
       requestPayerName: true,
       total: {
         label: "Cottage Club Midi",
-        amount: 40,
+        amount: 20,
       },
       requestShipping: true,
       shippingOptions: [{
@@ -92,7 +92,7 @@ const ApplePay = () => {
         stripe.confirmCardPayment(client_secret);
       }
       setPaymentStatus('Payment complete! You will be emailed shortly with confirmation! Remember to check your junk folder.')
-      DiscordHook();
+      DiscordHook(JSON.stringify(paymentIntent));
     });
   }, [stripe, elements]);
 
