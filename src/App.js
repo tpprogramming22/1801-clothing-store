@@ -12,6 +12,7 @@ import BuyNow from './components/buy-now';
 import About from './components/about';
 import Footer from './components/footer';
 import DiscordHook from './components/discordhook';
+import ReactCountryFlag from 'react-country-flag';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <div>
-      {/* <header className='bg-black text-white w-[400px] text-sm p-[2px] fixed top-0 z-30'>Less than 50 in stock!</header> */}
+      <header className='bg-black text-white w-[400px] text-sm p-[2px] fixed top-0 z-30 bg-opacity-25'>Free shipping to the UK <strong> </strong><ReactCountryFlag countryCode='GB' /></header>
       <Header />
       <Carousel />
       <Information />
