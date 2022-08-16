@@ -8,16 +8,16 @@ const Information = () => {
             </div>
             <h1 className='pt-3 text-xl'>£30</h1>
             <div className="flex justify-evenly items-center pt-10">
-            <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
+            <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
                     <span>XS</span>
                 </div>
                 <div className="shadow-xl bg-gray-400 rounded w-10 cursor-pointer focus:bg-black">
                     <span>S</span>
                 </div>
-                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
+                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
                     <span>M</span>
                 </div>
-                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer">
+                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
                     <span>L</span>
                 </div>
 

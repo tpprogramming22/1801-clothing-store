@@ -33,9 +33,7 @@ const About = () => {
         {!desc && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <span className="text-sm">
-            A classic, timeless dress that flatters every body type. It is perfect for every season. 
-
-We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 business days. Remember to check your junk folder for confirmation after ordering.
+            The ultimate cottage core inspired midi dress, perfect for all occasions. We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 business days. Remember to check your junk folder for confirmation after ordering.
             </span>
             
           </div>
@@ -62,7 +60,7 @@ We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 busine
         {!sizeGuide && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <p className="text-sm">
-            Our models both wear a size S, this size will fit a size 6-12. They are both 5’8 and wear size UK 8-10. Due to high demand, this is the only size left in stock. 
+            Our model wears a size small and is usually a size 8-10. This size will fit between a size 6-12. Due to high demand, this is the only size left in stock.
             </p>
           </div>
         )}
@@ -88,7 +86,7 @@ We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 busine
         {!returnPolicy && (
           <div className="inline-block overflow-hidden max-w-[300px] pt-3">
             <p className="text-sm">
-            If you want to return your dress (within 14 days), please email 1801helpdesk@gmail.com and one of our team will help you.
+            If you feel you want to return your dress you will have 14 days to do so. Please email 1801helpdesk@gmail.com and one of our team will get back to you.
             </p>
           </div>
         )}
