@@ -6,7 +6,7 @@ import DiscordHook from './discordhook';
 
 const BuyNow = () => {
   return (
-    <div className="pt-6 border-b-2 w-400px">
+    <div className="pt-6 border-b-2 w-396px">
         {/* <div className='flex justify-evenly items-center'>
         <p className="pt-2">Free shipping to the UK <strong> </strong><ReactCountryFlag countryCode='GB' /></p>
                 
