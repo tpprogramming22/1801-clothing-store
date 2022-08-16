@@ -4,6 +4,7 @@ import {
   useElements,
   PaymentRequestButtonElement,
 } from "@stripe/react-stripe-js";
+import DiscordHook from "./discordhook";
 
 const ApplePay = () => {
   const stripe = useStripe();
@@ -23,8 +24,8 @@ const ApplePay = () => {
       requestPayerEmail: true,
       requestPayerName: true,
       total: {
-        label: "1801 Maxi Dress",
-        amount: 2999,
+        label: "Cottage Club Midi",
+        amount: 3000,
       },
       requestShipping: true,
       shippingOptions: [{

@@ -2,6 +2,7 @@ import ReactCountryFlag from 'react-country-flag';
 import ApplePay from "./apple-pay";
 import PaymentLink from "./payment-link";
 import {AiFillCreditCard} from 'react-icons/ai'
+import DiscordHook from './discordhook';
 
 const BuyNow = () => {
   return (

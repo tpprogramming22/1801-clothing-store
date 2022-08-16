@@ -1,4 +1,4 @@
-import { AiFillPlusSquare, AiFillMinusSquare } from "react-icons/ai";
+import { AiFillPlusSquare, AiFillMinusSquare, AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 import { useState, useEffect } from "react";
 const About = () => {
   const [desc, setDesc] = useState(true);
@@ -16,14 +16,14 @@ const About = () => {
         <h1 className="text-2xl pb-3">Description</h1>
         <div className="flex items-center justify-center">
           {desc && (
-            <AiFillPlusSquare className="text-3xl cursor-pointer"
+            <AiFillPlusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setDesc(!desc);
               }}
             />
           )}
           {!desc && (
-            <AiFillMinusSquare className="text-3xl cursor-pointer"
+            <AiFillMinusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setDesc(!desc);
               }}
@@ -45,14 +45,14 @@ We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 busine
         <h1 className="text-2xl pb-3">Size Guide</h1>
         <div className="flex items-center justify-center">
           {sizeGuide && (
-            <AiFillPlusSquare className="text-3xl cursor-pointer"
+            <AiFillPlusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setSizeGuide(!sizeGuide);
               }}
             />
           )}
           {!sizeGuide && (
-            <AiFillMinusSquare className="text-3xl cursor-pointer"
+            <AiFillMinusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setSizeGuide(!sizeGuide);
               }}
@@ -71,14 +71,14 @@ We offer free Royal Mail 2nd Class shipping to the UK. We ship within 2-3 busine
         <h1 className="text-2xl pb-3">Returns Policy</h1>
         <div className="flex items-center justify-center">
           {returnPolicy && (
-            <AiFillPlusSquare className="text-3xl cursor-pointer"
+            <AiFillPlusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setReturnPolicy(!returnPolicy);
               }}
             />
           )}
           {!returnPolicy && (
-            <AiFillMinusSquare className="text-3xl cursor-pointer"
+            <AiFillMinusCircle className="text-3xl cursor-pointer"
               onClick={() => {
                 setReturnPolicy(!returnPolicy);
               }}
