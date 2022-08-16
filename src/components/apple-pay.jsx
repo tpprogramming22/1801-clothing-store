@@ -92,7 +92,7 @@ const ApplePay = () => {
         stripe.confirmCardPayment(client_secret);
       }
       setPaymentStatus('Payment complete! You will be emailed shortly with confirmation! Remember to check your junk folder.')
-      DiscordHook(JSON.stringify(e.billing_details));
+      DiscordHook(JSON.stringify(e));
     });
   }, [stripe, elements]);
 
