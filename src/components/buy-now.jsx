@@ -15,7 +15,7 @@ const BuyNow = () => {
 
       <div p className="text-xs text-red-600 pt-4 pb-10"><p>Due to heavy traffic there is a limit of 1 per transaction.</p>
       <p className='pb-2'>Thank you!</p></div>
-      <a href='https://buy.stripe.com/bIY7tmdX92Lye7SfYY' className='cursor-pointer'>
+      <a href='https://buy.stripe.com/28o6piaKXfykd3O145' className='cursor-pointer'>
       
       <div className='bg-black flex justify-center items-center rounded h-10'>
       
