@@ -24,13 +24,7 @@ const Information = () => {
 
             </div>
             
-            <div className='p-10 bg-black mt-10  rounded-lg bg-opacity-20 shadow-2xl'>
-                <h1 className='font-bold text-black'>SIZE SMALL AVAILABLE FOR PRE-ORDER NOW</h1>
-                <div className='flex justify-evenly'>
-                <h1 className='text-white'>Estimated 2 week shipping</h1>
-                
-                </div>
-            </div>
+            
             
             
         </div>
