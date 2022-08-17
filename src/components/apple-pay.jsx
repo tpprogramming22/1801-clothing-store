@@ -31,7 +31,7 @@ const ApplePay = () => {
       shippingOptions: [{
         id: 'free-shipping',
         label: 'Free shipping',
-        detail: 'Sent within 2 days with royal mail',
+        detail: 'PREORDER - Estimated 2 weeks shipping',
         amount: 0,},]
     });
     pr.canMakePayment().then((result) => {
