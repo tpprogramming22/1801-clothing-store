@@ -12,7 +12,7 @@ const Information = () => {
             <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
                     <span>XS</span>
                 </div>
-                <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
+                <div className="shadow-xl bg-gray-200 rounded w-12 H-12 cursor-pointer">
                     <span>S</span>
                 </div>
                 <div className="shadow-xl bg-gray-200 rounded w-10 cursor-pointer blur-[2px]">
