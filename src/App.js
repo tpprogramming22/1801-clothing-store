@@ -34,13 +34,13 @@ function App() {
       <Carousel />
       <Information />
       <div className='p-2 bg-black mt-10  rounded-lg bg-opacity-20 shadow-2xl'>
-                {/* <h1 className='font-bold text-black'>SORRY, WE'RE OUT OF STOCK</h1> */}
+                <h1 className='font-bold text-black'>SORRY, WE'RE OUT OF STOCK</h1>
                 
                 <h1 className='text-white'>FREE 3-5 DAY SHIPPING!</h1>
                 
                 
             </div>
-      <BuyNow />
+      {/* <BuyNow /> */}
       <About />
       <Footer />
 
